@@ -11,8 +11,7 @@ renamed as (
     select
         cast(id as int) as category_pk
         , cast(categoryname as varchar) as category_name
-        , cast(descriptio as varchar) as category_description
-
+        , cast(description as varchar) as category_description
     from source
 
 )
