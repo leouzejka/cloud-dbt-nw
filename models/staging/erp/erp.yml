@@ -1,5 +1,14 @@
 
 sources:
+<<<<<<< HEAD
+  - name: erp
+    database: fea25_05
+    schema: raw_northwind
+    tables:
+      - name: categories
+      - name: products
+      - name: suppliers
+=======
   - name: erp 
     database: fea25_05
     schema: raw_northwind
@@ -22,3 +31,4 @@ sources:
             data_tests:
               - unique
               - not_null
+>>>>>>> aa3e1a8c3ae8e6c4477bc855fbb913a77257aea3
